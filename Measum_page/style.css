@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color:rgb(209, 151, 74);
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.buttons{
+    text-decoration-color: black;
+}
+
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(laptop1.jpg);
+    background-position: center;
+}

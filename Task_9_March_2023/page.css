@@ -1,0 +1,26 @@
+.container1{
+    border: solid black 2px;
+    margin-bottom: 50px;
+}
+
+.container2{
+    border: solid black 2px;
+    margin-right: 500px;
+    height: 300px;
+    width: 500px;
+}
+
+.container3{
+    border: solid black 2px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    height: 300px;
+    width: 500px;
+}
+
+.container4{
+    border: solid black 2px;
+    /* padding: px; */
+    margin-top: 400px;
+}
+

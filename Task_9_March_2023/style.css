@@ -1,0 +1,15 @@
+div{
+    border: solid black 2px;;
+    /* height: 900px;
+    width: 1500px; */
+}
+h1{
+    color : blue;
+    text-align: center;
+}
+p{
+    color : black;
+}
+body{
+    /* background-image: url('tree.jpg'); */
+}
