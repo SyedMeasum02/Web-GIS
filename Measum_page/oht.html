@@ -10,35 +10,49 @@
 <body>
     
     <div class="container">
-        <div class="top">
-            <header>sofa</header>
-            <div class="links">
-                <a href="url">Home</a>
-                <a href="url">About</a>
-                <a href="url">Skills</a>
-                <a href="url">Works</a>
-                <a href="url">Contact</a>
-            </div>
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="toggleMenu()">
         </div>
         <div class="text">
-            <p><b>Shop Now.</b></p><br><br>
-            <p><h1>Hey! I'm Sofa.</h1>
-            We have a large variety of sofa available here, below are some samples.<br><br>
-            <button type="button">More samples here</button>
+            <p><h1>Luxary Sofa, available</h1>
+            We have a large variety of sofa available here,<br> below are some samples.<br><br>
+            <button type="button">More samples</button>
             </p>
         </div>
         <div class="sofa1">
             <br><br>
-            <img src="sofa1.jpg" heigh="500px" width="370px">
+            <img src="images/sofa1.jpg" heigh="500px" width="350px">
         </div>
-        <div class="sofa2">
-            <br><br>
-            <img src="sofa2.jpg" heigh="600px" width="410px">
-        </div>
-        <div class="sofa3">
-            <br><br>
-            <img src="sofa3.jpg" heigh="400px" width="280px">
+        <div class="social-links">
+            <img src="images/fb.png">
+            <img src="images/tw.png">
+            <img src="images/ig.png">
         </div>
     </div>
+    <script>
+
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
 </body>
 </html>
